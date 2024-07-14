@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* button{
+  margin-left: 50vw;
+  margin-top: 30px;
+  /* width: 120px;
+  height: 70px;
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32; */
+/* } */
+
+ol{
+  padding-left: 20vw;
+  padding-top: 30px;
+}
+li{
+  padding: 10px;
+}
+
+.buttons{
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3px;
+  /*column-gap: 2em; */
+}
+ul{
+  list-style-type: none;
+}
+.album{
+  display: flex;
+  justify-content: center;
+  /* width: fit-content; */
+}
+.users-data{
+  display: none;
+}
+.posts-data{
+  display: none;
+}
+.album-data{
+  display: none;
+}
+.album-title:hover{
+  color: blue;
+  cursor: pointer;
+}
+.album-title{
+  width: fit-content;
+  margin-left: 37vw;
+}
+.posts{
+  margin-left: 3px;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+}
+
+.data{
+  /* text-align: center; */
+  /* border: 1px solid gray; */
+  margin: 10px;
+  display:inline-block;
+}
+
+.content{
+  justify-content: center;
+}
